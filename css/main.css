@@ -1,0 +1,13 @@
+#text {
+  animation-name: text;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+@keyframes text {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(5);
+  }
+}
